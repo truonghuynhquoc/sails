@@ -1,4 +1,4 @@
-# app
+# articlebase
 
 a [Sails v1](https://sailsjs.com) application
 
@@ -14,7 +14,7 @@ a [Sails v1](https://sailsjs.com) application
 
 ### Version info
 
-This app was originally generated on Mon Jul 22 2019 17:45:17 GMT+0700 (GMT+07:00) using Sails v1.2.3.
+This app was originally generated on Tue Jul 23 2019 14:47:37 GMT+0700 (Indochina Time) using Sails v1.2.3.
 
 <!-- Internally, Sails used [`sails-generate@1.16.13`](https://github.com/balderdashy/sails-generate/tree/v1.16.13/lib/core-generators/new). -->
 

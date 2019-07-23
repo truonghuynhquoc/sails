@@ -18,9 +18,8 @@ module.exports.routes = {
   * `assets` directory)                                                      *
   *                                                                          *
   ***************************************************************************/
-
-  '/': { view: 'pages/homepage' },
-  'GET /check' : 'CheckController.check'
+ 'get /api/random-quote': 'QuoteController.getQuote',
+ 'get /api/protected/random-quote': 'QuoteController.getProtectedQuote'
 
 
   /***************************************************************************
