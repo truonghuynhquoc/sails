@@ -1,6 +1,10 @@
-var bcrypt = require("bcryptjs");
 module.exports = {
     attributes: {
+        id : {
+            type: 'string',
+            required: true,
+            unique: true,
+        },
         fullName: {
             type: 'string',
             required: true,
@@ -14,7 +18,6 @@ module.exports = {
             type: 'string',
             required: true,
         },
-        //attributes methods
     },
       
 }

@@ -7,16 +7,4 @@ module.exports = {
         res.view('session/new');
         
     },
-    login : function(req, res){
-        // var username : req.body.
-        User.find()
-        .exec(function(err,user){
-            if(err)
-            {
-                return res.serverError(err)
-            }
-            return 
-        })
-    }
-
 }
