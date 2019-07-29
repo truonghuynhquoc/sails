@@ -18,10 +18,16 @@ module.exports.routes = {
   * `assets` directory)                                                      *
   *                                                                          *
   ***************************************************************************/
- 'get /api/random-quote': 'QuoteController.getQuote',
- 'get /api/protected/random-quote': 'QuoteController.getProtectedQuote'
 
-
+  '/': { view               : 'pages/homepage' },
+  'GET /user/get'           : 'UserController.get',
+  'GET /user/token'         : 'UserController.token',
+  'GET /user/search/:id'    : 'UserController.search',
+  'POST /user/create'       : 'UserController.create',
+  'POST /user/login'        : 'UserController.login',
+  'PUT /user/update/:id'    : 'UserController.update',
+  'DELETE /user/delete/:id' : 'UserController.delete',
+  
   /***************************************************************************
   *                                                                          *
   * More custom routes here...                                               *

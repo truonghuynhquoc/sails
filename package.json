@@ -1,5 +1,5 @@
 {
-  "name": "articlebase",
+  "name": "app",
   "private": true,
   "version": "0.0.0",
   "description": "a Sails application",
@@ -8,11 +8,9 @@
     "@sailshq/connect-redis": "^3.2.1",
     "@sailshq/lodash": "^3.10.3",
     "@sailshq/socket.io-redis": "^5.2.0",
-    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
     "grunt": "1.0.4",
     "jsonwebtoken": "^8.5.1",
-    "passport": "^0.4.0",
-    "passport-local": "^1.0.0",
     "sails": "^1.2.3",
     "sails-hook-grunt": "^4.0.0",
     "sails-hook-orm": "^2.1.1",
@@ -30,7 +28,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/anonymous node/sails user/articlebase.git"
+    "url": "git://github.com/anonymous node/sails user/app.git"
   },
   "author": "anonymous node/sails user",
   "license": "",

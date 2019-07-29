@@ -27,7 +27,7 @@
 process.chdir(__dirname);
 
 
-
+require('coffee-script/register');
 // Attempt to import `sails` dependency, as well as `rc` (for loading `.sailsrc` files).
 var sails;
 var rc;

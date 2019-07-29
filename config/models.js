@@ -35,8 +35,6 @@ module.exports.models = {
   *                                                                          *
   ***************************************************************************/
 
-  // schema: true,
-
 
   /***************************************************************************
   *                                                                          *
@@ -53,7 +51,7 @@ module.exports.models = {
   *                                                                          *
   ***************************************************************************/
 
-  // migrate: 'alter',
+  migrate: 'safe',
 
 
   /***************************************************************************
@@ -69,8 +67,7 @@ module.exports.models = {
   ***************************************************************************/
 
   attributes: {
-    createdAt: { type: 'number', autoCreatedAt: true, },
-    updatedAt: { type: 'number', autoUpdatedAt: true, },
+    
     id: { type: 'number', autoIncrement: true, },
     //--------------------------------------------------------------------------
     //  /\   Using MongoDB?
@@ -101,7 +98,7 @@ module.exports.models = {
   ******************************************************************************/
 
   dataEncryptionKeys: {
-    default: 'OaF0j7Jm0+L23nmVmsqKYQ7V4jBRCUtJdHhrH1xYAwU='
+    default: 'I+0Mtk8fU17g7fXpiTxWJb6ShzONgS+FUefikAvV2pw='
   },
 
 
