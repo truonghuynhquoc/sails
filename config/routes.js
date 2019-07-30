@@ -21,7 +21,6 @@ module.exports.routes = {
 
   '/': { view                   : 'pages/homepage' },
   'GET /user/get'               : 'UserController.get',
-  'GET /user/token'             : 'UserController.token',
   'GET /user/search/:fullName'  : 'UserController.search',
   'POST /user/create'           : 'UserController.create',
   'POST /user/login'            : 'UserController.login',

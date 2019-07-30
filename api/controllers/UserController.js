@@ -84,19 +84,4 @@ module.exports = {
                 
             })      
         },
-    login : function(req,res){
-        User.findOne({email : req.body.email}).exec(function callback(err,user){
-                //if user log in success, generate a JWT token for the user with a secret key
-                jwt.sign({user}, 'privatekey', { expiresIn: '1h'},(err, token) => {
-                    if(err)
-                    { 
-                        return res.serverError(err);
-                        // console.log(err)
-                    }    
-                    res.send(token);
-                });
-            
-        })
-        
-    }
 }
