@@ -9,7 +9,8 @@
  */
 
 module.exports.custom = {
-
+  mailgunDomain: 'transactional-mail.example.com',
+  mailgunApiKey: 'key-testkeyb183848139913858e8abd9a3'
   /***************************************************************************
   *                                                                          *
   * Any other custom config this Sails app should use during development.    *

@@ -19,14 +19,13 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': { view                   : 'pages/homepage' },
-  'GET /user/get'               : 'UserController.get',
-  'GET /user/search/:fullName'  : 'UserController.search',
-  'POST /user/create'           : 'UserController.create',
-  'POST /user/login'            : 'UserController.login',
-  'PUT /user/update/:id'        : 'UserController.update',
-  'DELETE /user/delete/:id'     : 'UserController.delete',
-  
+  '/': { view: 'pages/homepage' },
+  'GET /getUserMOMO': 'UserController.UserMOMO',
+  'GET /getUserVNPAY': 'UserController.UserVNPAY',
+  'GET /getUserASIAPAY': 'UserController.UserASIAPAY',
+  'GET /get': 'ConfigController.get',
+
+
   /***************************************************************************
   *                                                                          *
   * More custom routes here...                                               *
