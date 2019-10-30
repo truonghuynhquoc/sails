@@ -13,7 +13,7 @@
     "mysql2": "^1.6.5",
     "sails": "^1.2.3",
     "sails-hook-grunt": "^4.0.0",
-    "sequelize": "^5.13.1"
+    "sequelize": "^5.15.1"
   },
   "devDependencies": {
     "eslint": "5.16.0"
