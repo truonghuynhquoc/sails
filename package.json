@@ -9,7 +9,7 @@
     "@sailshq/lodash": "^3.10.3",
     "@sailshq/socket.io-redis": "^5.2.0",
     "dotenv": "^8.0.0",
-    "grunt": "1.0.4",
+    "grunt": "1.5.3",
     "mysql2": "^1.6.5",
     "sails": "^1.2.3",
     "sails-hook-grunt": "^4.0.0",
